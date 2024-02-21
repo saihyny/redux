@@ -1,0 +1,36 @@
+.form2 {
+    display: flex; /* Use a flex container to arrange items side by side */
+    flex-direction: row;
+    justify-content: space-evenly; /* Distribute items evenly along the horizontal axis */
+  }
+  
+  
+  
+  ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  li {
+    display: flex; /* Use flexbox to make list items horizontal */
+    align-items: center; /* Center items vertically within the list item */
+    justify-content: space-evenly; /* Add space between items */
+    padding: 10px; /* Add some padding for spacing */
+    border: 1px solid black; /* Add a border to separate items */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  button{
+    margin-right: 50px;
+  }
+  
+  /* Adjust the width of your items to control their layout */
+  .item {
+     /* Allow items to take up an equal amount of space */
+    /* Other styling properties like text-align, font-size, etc. */
+    align-items: center; /* Center items vertically within the list item */
+    justify-content: space-evenly; /* Add space between items */
+    padding: 10px; /* Add some padding for spacing */
+
+  }
+  
